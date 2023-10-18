@@ -1,0 +1,2 @@
+
+<a href="{{route('carSeeMore',['id'=>$collection->id , 'photo_index'=>($index + 1) % count($photos) ])}}" style="color: #17627a; background:white; border-radius:50%; width:80px; height:30px; display:flex; align-items:center; justify-content:center;"><svg xmlns="http://www.w3.org/2000/svg" width="30"  height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
